@@ -11,3 +11,5 @@ const prezFn = {
         return sort(inputArray)
     }
 }
+
+export default prezFn
