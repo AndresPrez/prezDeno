@@ -1,3 +1,3 @@
-import { IPrez } from "@prez/types/mod.ts"
+import { IPrez } from "prez/types/mod.ts"
 
 export type { IPrez }
