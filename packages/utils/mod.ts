@@ -1,5 +1,3 @@
-export interface IPrez {
-    name: string
-    run: (...args: any[]) => Promise<any>;
-}
-// export default IPrez
+import { IPrez } from "@prez/types/mod.ts"
+
+export type { IPrez }
