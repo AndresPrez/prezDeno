@@ -1,4 +1,8 @@
 {
-  "tasks": {},
-  "importMap": "./import_map.json"
+  "tasks": {
+    "test": "deno run mod.ts [2,3,1]",
+    "bundle:core": "mkdir -p packages/dist && deno bundle packages/core/mod.ts packages/dist/core.ts",
+    "bundle:utils": "mkdir -p packages/dist && deno bundle packages/utils/mod.ts packages/dist/utils.ts"
+  },
+  "importMap": "import_map.json"
 }
